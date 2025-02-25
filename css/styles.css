@@ -89,7 +89,7 @@ body {
     color: #fff;
     max-width: 216px;
     margin: 0 auto;
-    margin-bottom: 72px;
+    margin-bottom: 24px;
   }
   .p-one-section {
     font-size: 16px;
@@ -99,4 +99,44 @@ body {
     text-align: center;
     margin: 0 auto;
   }
-  
+  .list-section-one{
+    display: block;
+    
+  }
+  .partical-list-one{
+    margin-bottom: 42px;
+    align-items: start;
+    width: 24px;
+      height: 24px;
+      background-color: #fff;
+      border-radius:50%;
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+.svg-section-one{
+  display: block;
+ 
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  fill: #fff;
+  background-color:#4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* section-two */
+.section-two{
+  background-color: #2e2f42;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 320px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../img/bg-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.one{
+  display: flex;
+}
