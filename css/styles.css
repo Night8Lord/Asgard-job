@@ -140,3 +140,14 @@ body {
 .one{
   display: flex;
 }
+/*  */
+.footeer-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2e2f42;
+
+}
+.footel-text{
+  text-align: center;
+  color: #fff;
+}
