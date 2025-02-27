@@ -140,7 +140,36 @@ body {
 .one{
   display: flex;
 }
-/*  */
+.partical-list-two{
+  width: 100%;
+  margin-bottom: 6px;
+  
+}
+.p-two-section{
+  padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #fff;
+      text-align: center;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.5);
+}
+/* section-tre */
+.list-section-tre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.partical-list-tre{
+  margin-bottom: 6px;
+}
+.tre{
+  background-color: rgba(46, 47, 66, 0.7);
+}
+/* footer */
 .footeer-container{
   padding-top: 20px;
   padding-bottom: 20px;
