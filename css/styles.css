@@ -115,13 +115,56 @@ body {
   }
 .svg-section-one{
   display: block;
- 
   width: 24px;
   height: 24px;
   border-radius: 50%;
   fill: #fff;
   background-color:#4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.one {
+  display: flex;
+}
+@media screen and (min-width:768px) {
+  .section-one{
+    max-width: 768px;
+    padding-top: 240px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../img/bg-fon.jpg);
+        margin: 0 auto;
+  }
+    .h2-one-section{
+      padding-top: 86px;
+      text-align: end;
+      font-size: 44px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+       max-width: 496px;
+      margin-left: 180px;
+      padding-bottom: 20px;
+      
+    }
+    .p-one-section{
+    font-size: 18px;
+      max-width: 496px;
+      text-align: end;
+      margin-left: 60px;
+   }
+     .partical-list-one{
+      height: 40px;
+      width: 40px;
+     }
+         .partical-list-one:last-child{
+          margin-bottom: 0;
+         }
+         .svg-section-one{
+          height: 40px;
+          width: 40px;
+         }
+     .list-section-one{
+      margin-bottom: 160px;
+     }
 }
 /* section-two */
 .section-two{
@@ -137,9 +180,7 @@ body {
     background-position: center;
     margin: 0 auto;
 }
-.one{
-  display: flex;
-}
+
 .partical-list-two{
   width: 100%;
   margin-bottom: 6px;
@@ -156,6 +197,24 @@ body {
       margin: 0 auto;
       background-color: rgba(255, 255, 255, 0.5);
 }
+@media screen and (min-width:768px){
+  .section-two{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../img/bg-fon.jpg);
+    max-width:768px;
+    margin: 0 auto;
+  }
+  .list-section-two {
+    display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+  
+    .partical-list-two {
+      width: calc((100% - 24px) / 2);
+    }
+}
 /* section-tre */
 .list-section-tre{
   display: flex;
@@ -165,11 +224,19 @@ body {
 }
 .partical-list-tre{
   margin-bottom: 20px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .tre{
   background-color: rgba(46, 47, 66, 0.7);
   padding-bottom: 40px;
   padding-top: 40px;
+}
+@media screen and (min-width:768px) {
+  
 }
 /* section for */
 .section-for{
@@ -177,7 +244,7 @@ body {
 }
 .head-container{
   max-width: 320px;
-  background-color: aquamarine;
+  background-color: rgb(5, 179, 195);
   margin: 0 auto;
   padding: 0;
   padding-right: 10px;
@@ -203,8 +270,9 @@ body {
 width: 40px;
 height: 40px;
 fill: #fff;
-background-color: aquamarine;
-
+background-color: rgb(5, 179, 195);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-only-sec-for{
   width: 40px;
